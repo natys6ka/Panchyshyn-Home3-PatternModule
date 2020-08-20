@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Panchyshyn-Home3</title>
+</head>
+
+<body>
+
+    <div class="block balans">
+        <p>
+            <label>Баланс</label>
+            <input type="text" id="bankBalance" readonly>
+        </p>
+        <p>
+            <label>Пиво</label>
+            <input type="text" id="beerCount" readonly>
+        </p>
+        <p>
+            <label>Вино</label>
+            <input type="text" id="wineCount" readonly>
+        </p>
+        <p>
+            <label>Пепсі</label>
+            <input type="text" id="pepsiCount" readonly>
+        </p>
+        <p>
+
+    </div>
+    <div class="block buy">
+        <p>
+            <label>Кількість</label>
+            <input type="number" name="" id="numberDrink">
+        </p>
+        <label><input type="radio" name="drinks" value="0" checked>Пиво</label>
+        <label><input type="radio" name="drinks" value="1">Вино</label>
+        <label><input type="radio" name="drinks" value="2">Пепсі</label>
+        <br>
+        <button  id="add">Додати</button>
+        <textarea name="" id="checkList" readonly></textarea>
+        <button id="sell">Купити</button>
+
+    </div>
+    <textarea class="block" id="check" readonly></textarea>
+
+
+    <script src="./module.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
