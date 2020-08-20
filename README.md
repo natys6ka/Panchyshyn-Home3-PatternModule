@@ -1,0 +1,1 @@
+# Panchyshyn-Home3-PatternModule
